@@ -11,7 +11,7 @@ app = FastAPI(title="RE Analyst Proto", version="0.2.0")
 # --- CORS ---
 FRONTEND_ORIGINS = [
     "http://localhost:3000",                 # lokal beim Entwickeln
-    "https://<dein-vercel-name>.vercel.app", # deine Vercel-URL nach Deploy
+    "https://re-analyst-ggwwvihu9-adrians-projects-6115aa33.vercel.app", # deine Vercel-URL nach Deploy
     # "https://deine-domain.de",             # optional eigene Domain
 ]
 
